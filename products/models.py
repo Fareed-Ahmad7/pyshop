@@ -2,7 +2,7 @@ from django.db import models
 
 
 # Create your models here.
-class Products(models.Model):
+class Product(models.Model):
     name = models.CharField(max_length=255, default='hi')
     price = models.FloatField(default='1')
     stock = models.CharField(max_length=255, default='7')
